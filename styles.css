@@ -5,6 +5,44 @@ body, html {
   line-height: 1.8;
 }
 
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .fa-footer {
+      display: inline-block;
+      margin: 0 20px;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .fa-footer {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .fa-footer {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) {
+    .fa-footer {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .w3-container {
+      padding: 50px 16px;
+    }
+  }
+
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
@@ -49,4 +87,24 @@ body, html {
   position: absolute;
   top: 8px;
   right: 16px;
+}
+
+.contactUs{
+  padding-left: 44rem;
+  font-size: large;
+
+}
+
+.contactUs :hover{
+  color: orange;
+  border-color: orange;
+}
+
+.footer{
+  padding: 2rem;
+}
+
+.footer:hover{
+  background-color: orange;
+  cursor: pointer;
 }
